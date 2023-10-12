@@ -11,23 +11,32 @@
         .body{
             background-color: royalblue;
         }
-        .card{
-            
-        }
+    
     </style>
 </head>
 <body class="body">
     <div class="container">
-        <div class="row">
+        <div class="row float-end">
             <div class="col">
-                <a href="#" class="float-end text-white"><i class="bi bi-person-circle" style="font-size: xx-large;"></i></a>
-            </div>
+                <p>
+                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#logoutcollapse" aria-expanded="false" aria-controls="logoutcollapse">
+                        <i class="bi bi-person-circle text-white" style="font-size: xx-large;"></i>                </button>
+                </p>   
+                <div>
+                    <div class="collapse collapse-horizontal" id="logoutcollapse">
+                      <div class="card card-body" style="width: 100px;">
+                        <a href="index.html" class="float-end text-dark text-decoration-none">Log out</a>
+                      </div>
+                    </div>
+                  </div>     
+            </div> 
         </div>
 
         <center>
             <div class="row">
                 <div class="col">
-                    <img src="newheaderlogo.svg" class="img-fluid imgtop mb-5" width="200px">
+                    <a href="index.html"><img src="newheaderlogo.svg" class="img-fluid imgtop mb-5" width="200px">
+                    </a>
                 </div>
             </div>
         </center>
